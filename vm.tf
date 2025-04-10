@@ -12,7 +12,6 @@ resource "aws_instance" "my-ec2" {
   }
 }
 
-
 data "aws_key_pair" "A4L" {
   key_name = "A4L"
 }
